@@ -1,0 +1,156 @@
+html, body{
+    margin: 0;
+    padding: 0;
+
+    background-color: #233661;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Container*/
+
+.container{
+
+    width: 60%;
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px;
+    margin-top: 4%;
+    margin-bottom: 30px;
+    margin-left: 20%;
+
+    box-shadow: 0 4px 10px 5px rgba(77, 52, 52, 0.50);
+}
+
+h1{
+    color: #233661;
+    font-size: 1.8em;
+    text-align: center;
+    padding: 5px;
+}
+
+/*form*/
+.form{
+    float: left;
+    padding: 10px;
+    align-items: center;
+    /*border: solid red 1px;*/
+    width: 45%;
+
+}
+
+h2{
+    color: #233661;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input{
+    height: 20px;
+    width: 50%;
+    margin-bottom: 25px;
+    margin-left: 25%;
+    padding: 3px;
+    border-style: double;
+    border-radius: 5px;
+    border-color: #cccccc;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.19);
+
+    text-align: center;
+
+    
+    
+}
+
+.user{
+    background-image: url(../img/user.png);
+    background-repeat: no-repeat;
+    background-size: 13px;
+    background-position: 12px 6px;
+
+}
+
+.pass{
+    background-image: url(../img/senha.png);
+    background-repeat: no-repeat;
+    background-size: 13px;
+    background-position: 12px 3px;
+}
+
+form button{
+    float: left;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    background-color: #233661;
+    color: white;
+    width: 120px;
+
+    margin-right: 10px;
+    margin-left: 25px;
+}
+
+.cadastro{
+    float: right;
+    /*border: solid red 1px;*/
+    margin-right: 45px;
+
+}
+
+/*logo*/
+.imgLogo{
+    /*border: solid red 1px;*/
+    float: right;
+    width: 50%;
+}
+
+.imgLogo img{
+    padding: 23px;
+    margin-left: 10%;
+    margin-bottom: 20px;
+}
+
+hr{
+    width: 90%;
+}
+
+.autor{
+    clear: both;
+    padding: 10px;
+}
+
+.rsd{
+    float: left;
+    margin-left: 5%;
+    padding: 5px;
+    color: #233661;
+}
+
+.github{
+    float: right;
+    margin-right: 5%;
+    padding: 5px;
+    color: #233661;
+}
+
+.github a{
+    text-decoration: none;
+}
+
+
+
+
+/*--- MediasQueries ---*/
+
+@media (max-width: 575.98px) { 
+    
+ }
+
+@media (min-width: 576px) and (max-width: 767.98px) { ... }
+
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+@media (min-width: 1200px) { ... }

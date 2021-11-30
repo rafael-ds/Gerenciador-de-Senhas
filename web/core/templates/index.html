@@ -1,1 +1,71 @@
-ola mundo
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Genrenciador de Senhas - Login</title>
+
+        <link rel="stylesheet" href="{% static 'css/login.css' %}">
+    </head>
+
+    <body>
+        
+        <section>
+            <div class="container">
+                <h1>Gerenciador de Senhas</h1>
+
+                <!--Formulario-->
+                <div class="form">
+
+                    <div class="corpoForm">
+                        <h2>Fazer login</h2>
+
+                        <form action="" method="post">
+                            <div>
+                                <input type="text"  class="user" placeholder="Usuário" name="usuario">
+                            </div>
+                            <div>
+                                <input type="password" class="pass" placeholder="Senha" name="senha">
+                            </div>
+                            <!--btn-->
+                            <div class="btn">
+                                <button type="submit">login</button>
+                            </div>
+
+                            <div style="float: left; color: #233661;">
+                                <span>|</span>
+                            </div>
+                            <div class="cadastro">
+                                <a href="#">Não possuo cadastro</a>
+                            </div>
+                        </form>
+                    </div>
+                    
+                </div>
+                <!--Fim Formulario-->
+
+                <!--Imagem do logo-->
+                <div class="imgLogo">
+                    <img src="{% static 'img/logo-1.png'%}" alt="">
+                </div>
+                <!--Fim da magem do logo-->
+
+
+                 <!--Mini roda pé-->
+                 
+                 <div class="autor">
+                    <hr>
+                     <div class="rsd">RSDevWeb</div>
+                     <div class="github">Desenvolvido por
+                         <a href="#" style="color: orange;">Rafael Silva</a>
+                     </div>
+                 </div>
+
+            </div>
+               
+        </section>
+    </body>
+
+</html>
