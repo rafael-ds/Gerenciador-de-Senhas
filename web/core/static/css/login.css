@@ -144,10 +144,84 @@ hr{
 /*--- MediasQueries ---*/
 
 @media (max-width: 575.98px) { 
+
+    .container{
+        width: 80%;
+        margin-top: 10%;
+        margin-left: 12px;
+    }
+
+    /*form*/
+    .form{
+        float: none;
+        /*border: solid red 1px;*/
+        width: 100%;
+
+    }
+
+    /*logo*/
+    .imgLogo{
+        /*border: solid red 1px;*/
+        float: none;
+        width: 50%;
+    }
+
+    .imgLogo img{
+        padding: 23px;
+        margin-left: 10%;
+        margin-bottom: 20px;
+    }
+
+    form button{
+        width: 100px;    
+        margin-right: 10px;
+        margin-left: 18px;
+    }
+
+    .cadastro{
+        margin-right: 38px;
+    
+    }
+
+    .rsd{
+        float: none;
+        margin-left: none;
+        text-align: center;
+        padding: 1px;
+        color: #233661;
+    }
+    
+    .github{
+        float: none;
+        margin-right: none;
+        text-align: center;
+        padding: 1px;
+        color: #233661;
+    }
+
+    
     
  }
 
-@media (min-width: 576px) and (max-width: 767.98px) { ... }
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    
+    .container{
+        width: 90%;
+        margin-top: 10%;
+        margin-left: 8px;
+    }
+
+    form button{
+        width: 100px;    
+        margin-right: 10px;
+        margin-left: 18px;
+    }
+
+    .cadastro{
+        margin-right: 8px;
+    
+    }
+ }
 
 @media (min-width: 768px) and (max-width: 991.98px) { ... }
 
