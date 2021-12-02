@@ -1,6 +1,7 @@
 from django.urls import path
-from . import views
+from .views import CadastroView, IndexView
 
 urlpatterns = [
-    path('', views.index, name='index')
+    path('', IndexView.as_view(), name='index'),
+    path('cadastro/', CadastroView.as_view(), name='cadastro'),
 ]   

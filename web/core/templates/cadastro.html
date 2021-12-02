@@ -5,9 +5,9 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Genrenciador de Senhas - Login</title>
+        <title>Genrenciador de Senhas - Cadastro</title>
 
-        <link rel="stylesheet" href="{% static 'css/login.css' %}">
+        <link rel="stylesheet" href="{% static 'css/cad.css' %}">
     </head>
 
     <body>
@@ -20,7 +20,7 @@
                 <div class="form">
 
                     <div class="corpoForm">
-                        <h2>Fazer login</h2>
+                        <h2>Criar usuário</h2>
 
                         <form action="" method="post">
                             <div>
@@ -31,14 +31,14 @@
                             </div>
                             <!--btn-->
                             <div class="btn">
-                                <button type="submit">login</button>
+                                <button type="submit">cadastrar</button>
                             </div>
 
                             <div style="float: left; color: #233661;">
                                 <span>|</span>
                             </div>
-                            <div class="cadastro">
-                                <a href="{% url 'cadastro' %}">Não possuo cadastro</a>
+                            <div class="login">
+                                <a href="{% url 'index' %}">Já sou cadastro</a>
                             </div>
                         </form>
                     </div>

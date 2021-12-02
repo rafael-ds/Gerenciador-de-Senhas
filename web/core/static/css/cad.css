@@ -88,14 +88,18 @@ form button{
     width: 120px;
 
     margin-right: 10px;
-    margin-left: 25px;
+    margin-left: 45px;
 }
 
-.cadastro{
+.login{
     float: right;
     /*border: solid red 1px;*/
-    margin-right: 45px;
+    margin-right: 65px;
 
+}
+
+.login a{
+    text-decoration: none;
 }
 
 /*logo*/
@@ -175,16 +179,12 @@ hr{
     form button{
         width: 100px;    
         margin-right: 10px;
-        margin-left: 18px;
+        margin-left: 58px;
     }
 
-    .cadastro{
+    .login{
         margin-right: 38px;
     
-    }
-
-    .cadastro a{
-        text-decoration: none;
     }
 
     .rsd{
@@ -218,11 +218,11 @@ hr{
     form button{
         width: 100px;    
         margin-right: 10px;
-        margin-left: 18px;
+        margin-left: 38px;
     }
 
-    .cadastro{
-        margin-right: 8px;
+    .login{
+        margin-right: 28px;
     
     }
  }
