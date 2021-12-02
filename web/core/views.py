@@ -6,3 +6,7 @@ class IndexView(TemplateView):
 
 class CadastroView(TemplateView):
     template_name = 'cadastro.html'
+
+
+class BaseView(TemplateView):
+    template_name = 'base.html'
