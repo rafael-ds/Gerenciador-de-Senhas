@@ -1,8 +1,8 @@
 from django.urls import path
-from .views import CadastroView, IndexView, BaseView
+from .views import CadastroView, IndexView, DashView
 
 urlpatterns = [
     path('', IndexView.as_view(), name='index'),
     path('cadastro/', CadastroView.as_view(), name='cadastro'),
-    path('base/', BaseView.as_view(), name='base')
+    path('dashboard/', DashView.as_view(), name='dashboard')
 ]   

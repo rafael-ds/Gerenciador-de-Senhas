@@ -1,0 +1,68 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block conteudo %}
+
+<link rel="stylesheet" href="{% static 'css/dash.css' %}">
+
+<!--Thead-->
+<div class="thead">
+    <!--Nome-->
+    <div class="nome">
+        <span>Nome</span>
+    </div>
+
+    <!--Email/User-->
+    <div class="emailUsuario">
+        <span>Email/Usuário</span>
+    </div>
+
+    <!--Senha-->
+    <div class="senha">
+        <span>Senha</span>
+
+        <span class="material-icons-outlined" style="margin-left: 5px;">
+            visibility_off
+        </span>
+    </div>
+
+    <!--Nivel-->
+    <div class="nivel">
+        <span>Nivel</span>
+    </div>
+</div>
+
+<!--Tbody-->
+<div class="tbody">
+    
+    <table>
+        <tbody>
+            <tr>
+                <td>Facebock</td>
+                <td>usuario@email.com</td>
+                <td>1234</td>
+                <td>icone</td>
+            </tr>
+
+            <tr>
+                <td>Instagram</td>
+                <td>@usuario</td>
+                <td>4321</td>
+                <td>icone</td>
+            </tr>
+        </tbody>
+    </table>
+    
+</div>
+
+<div class="paginacao">
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+    </ul>
+</div>
+
+{% endblock %}

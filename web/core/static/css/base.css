@@ -197,4 +197,28 @@ aside{
 /* Fotter*/
 footer{
     clear: both;
+
+    padding: 20px;
+}
+
+footer .logo{
+
+    float: left;
+    color: white;
+    margin-left: 25%;
+
+    padding: 20px;
+
+}
+
+footer .dev{
+    float: right;
+    margin-right: 20%;
+    color: white;
+    padding: 20px;
+}
+
+.dev a{
+    text-decoration: none;
+    color: #EEA757;
 }

@@ -23,7 +23,7 @@
                     <div class="row">
                         <!--Logo-->
                         <div class="logo">
-                            <a href="{% url 'index' %}">
+                            <a href="{% url 'dashboard' %}">
                                 <img src="{% static 'img/logo-1.png'%}" alt="Logo">
                             </a>
                         </div>
@@ -148,7 +148,6 @@
                 <div class="block">
                     {% block conteudo%}
                     {% endblock%}
-                    coteudo
                 </div>
                 
             </div>
@@ -156,7 +155,12 @@
 
         <section>
             <footer>
-                rodape
+                <div class="logo">
+                    <span>RSDevWeb</span>
+                </div>
+                <div class="dev">
+                    Desenvolvido por <a href="https://github.com/rafael-ds">Rafael Silva</a>
+                </div>
             </footer>
         </section>
 
