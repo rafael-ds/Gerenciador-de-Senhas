@@ -103,6 +103,8 @@ header{
     clear: both;
 }
 
+
+/********* Barra Lateral ***********/
 aside{
     background-color: white;
 
@@ -120,6 +122,75 @@ aside{
     margin-right: 5%;
     border-radius: 5px;
     padding: 10px;
+}
+
+
+.imgPerfil{
+
+    width: 120px;
+    height: 120px;
+    background-color: rgb(215, 229, 230);
+    border-radius: 100%;
+
+    margin-left: 30%;
+    margin-top: 30%;
+    margin-bottom: 10%;
+
+}
+
+.addSenha, .altSenha, .exlSenha, .confg{
+    margin-bottom: 50px;
+    clear: both;
+    padding: 10px;
+}
+
+.confg{
+    margin-bottom: 50%;
+}
+
+
+.nomePerfil{
+
+    color: #233661;
+    font-size: 1.3em;
+    text-align: center;
+    margin-bottom: 30%;
+
+}
+
+.icone span{
+
+    float: left;
+
+    /*border: solid red 1px;*/
+
+    color: #233661;
+    font-size: 2em;
+
+    margin-top: 8px;
+    margin-left: 5%;
+    padding: 5px;
+    
+}
+
+.opcao{
+    /*border: solid red 1px;*/
+
+    float: left;
+    width: 65%;
+
+    padding: 5px;
+    text-align: left;
+    font-size: 1.3em;
+
+    margin-top: 15px;
+    margin-left: 10px;
+
+}
+
+.opcao a{
+    text-decoration: none;
+    color: #233661;
 }
 
 
