@@ -1,0 +1,15 @@
+web/core/__init__.py
+web/core/tests.py
+web/core/__pycache__/__init__.cpython-38.pyc
+web/core/__pycache__/admin.cpython-38.pyc
+web/core/__pycache__/apps.cpython-38.pyc
+web/core/__pycache__/models.cpython-38.pyc
+web/core/__pycache__/urls.cpython-38.pyc
+web/core/__pycache__/views.cpython-38.pyc
+web/gerenciador_senha/__init__.py
+web/gerenciador_senha/__pycache__/__init__.cpython-38.pyc
+web/gerenciador_senha/__pycache__/settings.cpython-38.pyc
+web/gerenciador_senha/__pycache__/urls.cpython-38.pyc
+web/gerenciador_senha/__pycache__/wsgi.cpython-38.pyc
+web/core/migrations/__init__.py
+web/core/migrations/__pycache__/__init__.cpython-38.pyc

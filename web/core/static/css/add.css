@@ -1,0 +1,91 @@
+.titulo{
+    color: #233661;
+
+}
+
+.iconeAdd span{
+    font-size: 3em;
+    float: left;
+
+    margin-left: 35%;
+    margin-right: 20px;
+}
+
+
+.subtitulo h1{
+    padding: 10px;
+    font-size: 1.5em;
+
+    
+}
+
+.container{
+
+    border-radius: 5px;
+    box-shadow: 0 4px 5px 2px rgba(20, 52, 52, 0.30);
+    padding: 10px;
+
+    width: 95%;
+    margin-left: 1.3%;
+
+}
+
+.container h2{
+    font-weight: 300;
+    color: #233661;
+    text-align: center;    
+    margin-top: 30px;
+
+    
+
+}
+
+.dados label, input{
+    display: block;
+}
+
+form{
+
+    padding: 20px;
+
+    border: #233661 solid 1px;
+    clear: both;
+
+}
+
+.formulario label{
+    padding: 5px;
+    color: #233661;
+}
+
+.formulario input{
+    padding: 5px;
+
+    width: 50%;
+    border-radius: 5px; 
+    border-style: groove;
+
+
+    border: #233661 solid 1px;
+}
+
+.nomeInst{
+
+    border: #233661 solid 1px;
+    width: 30%;
+    float: left;
+    margin-bottom: 30px;
+
+
+
+}
+
+
+.emailUser{
+    border: #233661 solid 1px;
+    width: 30%;
+    float: left;
+
+
+}
+

@@ -10,3 +10,7 @@ class CadastroView(TemplateView):
 
 class DashView(TemplateView):
     template_name = 'dashboard.html'
+
+
+class AddManualView(TemplateView):
+    template_name = 'addNovaSenhaManual.html'

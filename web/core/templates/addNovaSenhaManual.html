@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block conteudo %}
+
+<link rel="stylesheet" href="{% static 'css/add.css' %}">
+
+
+<!--Titulo-->
+<section>
+    <!--Titulo-->
+    <div class="titulo">
+        <div class="iconeAdd">
+            <span class="material-icons-outlined">
+                note_add
+            </span>
+        </div>
+    
+        <div class="subtitulo">
+            <h1>Add Nova Senha</h1>
+        </div>
+    </div>
+
+    <!--Container-->
+    <div class="container">
+        <h2>Entre com os dados</h2>      
+
+        <!--Form-->
+        <div class="formulario">
+            <form action="" method="post">                
+
+                <div class="nomeInst">
+                    <label for="instituicao">Nome da Instituição*</label>
+                    <input type="text" placeholder="Nome da Instituição*" required>
+
+                </div>
+                <div class="emailUser">
+                    <label for="instituicao">Nome da Instituição*</label>
+                    <input type="text" placeholder="Email/Usuário*" required>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</section>
+
+
+
+
+{% endblock %}
